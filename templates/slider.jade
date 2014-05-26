@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="css/slider.css")
+  body
+    .slider
+      input#slide-one(type="radio" name="slide" checked)
+      input#slide-two(type="radio" name="slide")
+      input#slide-three(type="radio" name="slide")
+      .slides
+        img#slide-img-three(src="starcraftsl3.jpg")
+        img#slide-img-two(src="starcraftsl2.jpg")
+        img#slide-img-one(src="starcraft1.jpg")
+      label#for-slide-one(for="slide-one")
+      label(for="slide-two")
+      label(for="slide-three")
